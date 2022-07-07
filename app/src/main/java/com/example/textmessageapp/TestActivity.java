@@ -17,7 +17,7 @@ public class TestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_test);
         //Button btnSend = findViewById(R.id.btnSend);
         Spinner spnDays = findViewById(R.id.spinner);
-        String[] cars = {"Mon","Tue","Wed","Thu","Fri"};
+        String[] cars = {"Monday","Tuesday","Wed","Thu","Fri"};
         ArrayAdapter adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, cars);
         spnDays.setAdapter(adapter);
