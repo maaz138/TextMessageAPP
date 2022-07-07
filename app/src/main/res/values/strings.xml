@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextMessageAPP</string>
+<array name="Car">
+    <item>Toyota</item>
+    <item>Honda</item>
+    <item>Changhan</item>
+</array>
+</resources>
